@@ -1,5 +1,5 @@
-hash: edde022c2e4d523beb91ad20768a21fbfbb675a81608b029bf7fc866f01f57ed
-updated: 2016-11-16T15:55:32.011586973+01:00
+hash: edc4e37d1c80a6c4f158de8946f6f6209f5a9d4ee2891c0e55ffac13a8c48c39
+updated: 2018-01-11T13:23:43.144688627Z
 imports:
 - name: github.com/elastic/go-lumber
   version: 616041e345fc33c97bc0eb0fa6b388aa07bca3e1
@@ -13,22 +13,29 @@ imports:
   - server/v1
   - server/v2
 - name: github.com/elastic/go-ucfg
-  version: 38aaa83e094af5fd992dc3ef343166c0d1fc4a2a
+  version: 6baf3ba6c380865e8176e9418551444b25cbf8f2
   subpackages:
   - yaml
+- name: github.com/hashicorp/go-syslog
+  version: 326bf4a7f709d263f964a6a96558676b103f3534
 - name: github.com/klauspost/compress
-  version: e3b7981a12dd3cab49afa1d3a50e715846f23732
+  version: b88785bfd699aa994985ea91b90ee8a1721c3fe1
   subpackages:
   - flate
   - zlib
 - name: github.com/klauspost/cpuid
-  version: 09cded8978dc9e80714c4d85b0322337b0a1e5e0
+  version: ae832f27941af41db13bd6d8efd2493e3b22415a
 - name: github.com/Sirupsen/logrus
-  version: abc6f20dabf4b10195f233ad21ea6c5ba33acae0
+  version: d26492970760ca5d33129d2d799e34be5c4782eb
+- name: golang.org/x/crypto
+  version: 5f55bce93ad2c89f411e009659bb1fd83da36e7b
+  subpackages:
+  - ssh/terminal
 - name: golang.org/x/sys
-  version: b699b7032584f0953262cb2788a0ca19bb494703
+  version: 810d7000345868fc619eb81f46307107118f4ae1
   subpackages:
   - unix
+  - windows
 - name: gopkg.in/yaml.v2
-  version: a5b47d31c556af34a302ce5d659e6fea44d90de0
+  version: d670f9405373e636a5a2765eea47fac0c9bc91a4
 testImports: []

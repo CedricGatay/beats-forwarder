@@ -10,3 +10,4 @@ import:
   version: v0.3.7
   subpackages:
   - yaml
+- package: github.com/hashicorp/go-syslog
